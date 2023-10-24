@@ -8,5 +8,5 @@ const divA = document.getElementById("divA");
 
 
 hideA.addEventListener("click", (e)=> {
-    divA.style.visibility = "none";
+    divA.style.display = "none";
 });
