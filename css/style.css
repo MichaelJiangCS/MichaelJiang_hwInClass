@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 .headerContainer{
     text-align: center;
     padding: 40px;
@@ -17,29 +18,32 @@
 }
 
 .bodyContainer{
-    
-
-    display: flex;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    flex-direction: row;
-
-
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
 .letterButton{
+    
     height: 40px;
     width: 90px;
     margin-top: 10%;
     position: static;
+    margin-left: 1%;
 }
 
 .hideButton{
+    text-align: center;
     height: 30px;
     width: 120px;
     margin-top: 2%;
     position: static;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
 }
+
 
 
